@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+  <title id="title">Saleh Elsaity — AI, Robotics and Software Engineering</title>
+  <desc id="desc">A dark technical banner with neural-network nodes, circuit traces and robotics motifs.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#050816"/>
+      <stop offset="0.55" stop-color="#0b1533"/>
+      <stop offset="1" stop-color="#111827"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#22d3ee"/>
+      <stop offset="0.5" stop-color="#818cf8"/>
+      <stop offset="1" stop-color="#c084fc"/>
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="5" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#334155" stroke-opacity="0.18" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="360" rx="26" fill="url(#bg)"/>
+  <rect width="1200" height="360" rx="26" fill="url(#grid)"/>
+  <circle cx="1050" cy="80" r="140" fill="#312e81" opacity="0.22"/>
+  <circle cx="115" cy="315" r="180" fill="#0e7490" opacity="0.15"/>
+
+  <g opacity="0.72" stroke="url(#accent)" stroke-width="2" fill="none">
+    <path d="M815 72 L900 118 L985 78 L1082 130"/>
+    <path d="M842 188 L932 150 L1026 205 L1112 164"/>
+    <path d="M788 280 L885 240 L970 286 L1085 250"/>
+  </g>
+  <g fill="#67e8f9" filter="url(#glow)">
+    <circle cx="815" cy="72" r="5"/><circle cx="900" cy="118" r="6"/><circle cx="985" cy="78" r="5"/><circle cx="1082" cy="130" r="7"/>
+    <circle cx="842" cy="188" r="6"/><circle cx="932" cy="150" r="5"/><circle cx="1026" cy="205" r="7"/><circle cx="1112" cy="164" r="5"/>
+    <circle cx="788" cy="280" r="5"/><circle cx="885" cy="240" r="7"/><circle cx="970" cy="286" r="5"/><circle cx="1085" cy="250" r="6"/>
+  </g>
+
+  <g transform="translate(790 120)" opacity="0.95">
+    <rect x="45" y="35" width="180" height="135" rx="26" fill="none" stroke="#a5b4fc" stroke-width="4"/>
+    <circle cx="100" cy="95" r="14" fill="#22d3ee"/>
+    <circle cx="170" cy="95" r="14" fill="#c084fc"/>
+    <path d="M105 137 Q135 158 165 137" fill="none" stroke="#e2e8f0" stroke-width="5" stroke-linecap="round"/>
+    <path d="M135 35 V3" stroke="#a5b4fc" stroke-width="4"/>
+    <circle cx="135" cy="0" r="8" fill="#22d3ee"/>
+    <path d="M45 80 H20 M225 80 H250 M45 130 H20 M225 130 H250" stroke="#818cf8" stroke-width="4" stroke-linecap="round"/>
+  </g>
+
+  <text x="70" y="120" fill="#f8fafc" font-family="Segoe UI, Arial, sans-serif" font-size="58" font-weight="800">SALEH ELSAITY</text>
+  <text x="72" y="175" fill="url(#accent)" font-family="Segoe UI, Arial, sans-serif" font-size="29" font-weight="700">AI • ROBOTICS • SOFTWARE ENGINEERING</text>
+  <text x="72" y="230" fill="#cbd5e1" font-family="Segoe UI, Arial, sans-serif" font-size="22">Building intelligent systems that connect models, sensors and real-world action.</text>
+  <rect x="72" y="270" width="365" height="4" rx="2" fill="url(#accent)"/>
+</svg>
