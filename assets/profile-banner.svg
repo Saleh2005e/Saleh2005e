@@ -1,0 +1,112 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="430" viewBox="0 0 1400 430" role="img" aria-labelledby="title desc">
+  <title id="title">Saleh Elsaity — Intelligent Systems Engineer</title>
+  <desc id="desc">Elite dark technical banner combining artificial intelligence, robotics, software architecture and control systems.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#020617"/>
+      <stop offset="0.52" stop-color="#07111f"/>
+      <stop offset="1" stop-color="#0b1025"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#22d3ee"/>
+      <stop offset="0.48" stop-color="#6366f1"/>
+      <stop offset="1" stop-color="#a855f7"/>
+    </linearGradient>
+    <radialGradient id="orb" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#22d3ee" stop-opacity="0.3"/>
+      <stop offset="1" stop-color="#22d3ee" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="microGrid" width="26" height="26" patternUnits="userSpaceOnUse">
+      <path d="M26 0H0V26" fill="none" stroke="#64748b" stroke-opacity="0.10" stroke-width="1"/>
+    </pattern>
+    <pattern id="dots" width="18" height="18" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r="1" fill="#94a3b8" opacity="0.16"/>
+    </pattern>
+    <filter id="glow" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="7" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <clipPath id="frameClip">
+      <rect width="1400" height="430" rx="30"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#frameClip)">
+    <rect width="1400" height="430" fill="url(#background)"/>
+    <rect width="1400" height="430" fill="url(#microGrid)"/>
+    <rect x="910" width="490" height="430" fill="url(#dots)" opacity="0.7"/>
+    <circle cx="1180" cy="180" r="270" fill="url(#orb)"/>
+    <circle cx="80" cy="410" r="210" fill="#4f46e5" opacity="0.08"/>
+
+    <path d="M0 48H320L346 74H700" fill="none" stroke="url(#accent)" stroke-width="2" opacity="0.55"/>
+    <path d="M1400 382H1120L1095 357H795" fill="none" stroke="url(#accent)" stroke-width="2" opacity="0.48"/>
+    <path d="M0 399H180" stroke="#22d3ee" stroke-width="3" opacity="0.5"/>
+    <path d="M1220 30H1400" stroke="#a855f7" stroke-width="3" opacity="0.5"/>
+
+    <g transform="translate(900 45)">
+      <circle cx="215" cy="170" r="143" fill="none" stroke="#334155" stroke-width="1.5"/>
+      <circle cx="215" cy="170" r="115" fill="none" stroke="#475569" stroke-width="1" stroke-dasharray="4 10"/>
+      <circle cx="215" cy="170" r="84" fill="#020617" fill-opacity="0.66" stroke="url(#accent)" stroke-width="2"/>
+
+      <g fill="none" stroke-linecap="round">
+        <path d="M62 74L120 105L157 66L215 92L270 56L325 100L374 73" stroke="#22d3ee" stroke-width="2" opacity="0.72"/>
+        <path d="M40 191L104 165L150 206L215 170L282 210L330 165L390 191" stroke="#818cf8" stroke-width="2" opacity="0.72"/>
+        <path d="M70 278L125 245L171 284L230 250L286 286L348 250" stroke="#c084fc" stroke-width="2" opacity="0.72"/>
+      </g>
+
+      <g filter="url(#softGlow)">
+        <g fill="#67e8f9">
+          <circle cx="62" cy="74" r="5"/><circle cx="120" cy="105" r="4"/><circle cx="157" cy="66" r="5"/><circle cx="215" cy="92" r="4"/><circle cx="270" cy="56" r="5"/><circle cx="325" cy="100" r="4"/><circle cx="374" cy="73" r="5"/>
+        </g>
+        <g fill="#a5b4fc">
+          <circle cx="40" cy="191" r="4"/><circle cx="104" cy="165" r="5"/><circle cx="150" cy="206" r="4"/><circle cx="215" cy="170" r="6"/><circle cx="282" cy="210" r="4"/><circle cx="330" cy="165" r="5"/><circle cx="390" cy="191" r="4"/>
+        </g>
+        <g fill="#d8b4fe">
+          <circle cx="70" cy="278" r="5"/><circle cx="125" cy="245" r="4"/><circle cx="171" cy="284" r="5"/><circle cx="230" cy="250" r="4"/><circle cx="286" cy="286" r="5"/><circle cx="348" cy="250" r="4"/>
+        </g>
+      </g>
+
+      <g transform="translate(149 112)">
+        <rect x="0" y="0" width="132" height="112" rx="24" fill="#07111f" stroke="#a5b4fc" stroke-width="3"/>
+        <path d="M66 0V-24" stroke="#a5b4fc" stroke-width="3"/>
+        <circle cx="66" cy="-29" r="7" fill="#22d3ee" filter="url(#glow)"/>
+        <circle cx="39" cy="48" r="10" fill="#22d3ee"/>
+        <circle cx="93" cy="48" r="10" fill="#a855f7"/>
+        <path d="M41 79Q66 96 91 79" fill="none" stroke="#e2e8f0" stroke-width="4" stroke-linecap="round"/>
+        <path d="M0 37H-22M132 37H154M0 78H-22M132 78H154" stroke="#6366f1" stroke-width="3" stroke-linecap="round"/>
+      </g>
+
+      <g font-family="Consolas, Menlo, monospace" font-size="12" fill="#94a3b8">
+        <text x="6" y="22">PERCEPTION</text>
+        <text x="331" y="22">CONTROL</text>
+        <text x="2" y="330">SOFTWARE</text>
+        <text x="335" y="330">SYSTEMS</text>
+      </g>
+    </g>
+
+    <g font-family="Segoe UI, Inter, Arial, sans-serif">
+      <text x="72" y="95" fill="#67e8f9" font-family="Consolas, Menlo, monospace" font-size="18" font-weight="700" letter-spacing="3">INTELLIGENT SYSTEMS ENGINEER</text>
+      <text x="68" y="174" fill="#f8fafc" font-size="68" font-weight="800" letter-spacing="1">SALEH ELSAITY</text>
+      <rect x="72" y="203" width="555" height="5" rx="2.5" fill="url(#accent)"/>
+      <text x="72" y="258" fill="#cbd5e1" font-size="25" font-weight="600">AI  /  ROBOTICS  /  SOFTWARE ENGINEERING</text>
+      <text x="72" y="310" fill="#94a3b8" font-size="20">Designing systems that perceive, decide, control and improve.</text>
+
+      <g transform="translate(72 344)" font-family="Consolas, Menlo, monospace" font-size="15" font-weight="700">
+        <rect width="146" height="38" rx="8" fill="#0f172a" stroke="#22d3ee" stroke-opacity="0.55"/>
+        <text x="19" y="25" fill="#67e8f9">COMPUTER VISION</text>
+        <rect x="160" width="108" height="38" rx="8" fill="#0f172a" stroke="#818cf8" stroke-opacity="0.55"/>
+        <text x="181" y="25" fill="#a5b4fc">ROBOTICS</text>
+        <rect x="282" width="143" height="38" rx="8" fill="#0f172a" stroke="#a855f7" stroke-opacity="0.55"/>
+        <text x="302" y="25" fill="#d8b4fe">FULL-STACK</text>
+        <rect x="439" width="132" height="38" rx="8" fill="#0f172a" stroke="#22d3ee" stroke-opacity="0.45"/>
+        <text x="460" y="25" fill="#cbd5e1">AUTOMATION</text>
+      </g>
+    </g>
+  </g>
+
+  <rect x="1" y="1" width="1398" height="428" rx="29" fill="none" stroke="#334155" stroke-width="2"/>
+</svg>
